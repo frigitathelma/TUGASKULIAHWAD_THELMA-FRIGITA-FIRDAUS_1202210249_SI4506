@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latian WEB Bersama Pak Aman</title>
+    <style>
+        body {
+            background-color: rgb(205, 38, 152);
+        }
+
+        .green-bg {
+            background-color: rgb(128, 0, 79);
+        }
+    </style>
+</head>
+<body>
+    <h1>Apa yang Dapat dilakukan JavaScript?</h1>
+    <p id="demo">Klik tombol berikut untuk mengubah konten.</p>
+    <button type="button" onclick="changeBackgroundColor()">Click Me!</button>
+
+    <script>
+        function changeBackgroundColor() {
+            document.body.classList.add("green-bg");
+        }
+    </script>
+</body>
+</html>
